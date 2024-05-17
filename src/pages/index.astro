@@ -10,6 +10,7 @@ import Splash from "~/components/splash.astro";
 import "~/styles/index.css";
 
 const { generator, site } = Astro;
+const image = new URL("dog.jpg", site);
 const description =
   "Kamalesh R | Portfolio";
 ---
@@ -28,6 +29,7 @@ const description =
     <meta property="og:title" content="Kamalesh R" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
     <meta property="og:url" content={site} />
     <meta name="twitter:card" content="summary_large_image" />
 
