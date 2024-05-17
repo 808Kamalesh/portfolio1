@@ -68,6 +68,39 @@ const platforms: Array<CompatibilityItem> = [
     url: "https://docs.gitlab.com/ee/user/project/pages/",
   },
 ];
+
+const Backend: Array<CompatibilityItem> = [
+  {
+    title: "Node Js",
+    icon: "platforms/nodejs",
+    url: "https://nodejs.org/",
+  },
+  {
+    title: "Django",
+    icon: "platforms/django",
+    url: "https://www.djangoproject.com/",
+  },
+  {
+    title: "Laravel",
+    icon: "platforms/laravel",
+    url: "https://laravel.com/",
+  },
+  {
+    title: "Ruby on Rails",
+    icon: "platforms/rubyonrails",
+    url: "https://rubyonrails.org/",
+  },
+  {
+    title: "Expressjs",
+    icon: "platforms/expressjs",
+    url: "https://expressjs.com/",
+  },
+  {
+    title: "Spring Boot",
+    icon: "platforms/springboot",
+    url: "https://spring.io/",
+  },
+];
 ---
 
 <ContentSection title="Technologies" id="compatibility">
@@ -77,9 +110,14 @@ const platforms: Array<CompatibilityItem> = [
   </Fragment>
   <CompatibilityList
     items={frameworks}
-    title="Frameworks"
+    title="Frontend"
     url="https://docs.astro.build/core-concepts/framework-components/"
   />
+  <CompatibilityList
+  items={Backend}
+  title="Backend"
+  url="https://docs.astro.build/guides/deploy/"
+/>
   <CompatibilityList
     items={platforms}
     title="Platforms"
