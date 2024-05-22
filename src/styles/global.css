@@ -8,5 +8,13 @@ a,
 
 .gradient-text {
   @apply bg-clip-text text-transparent;
-  @apply bg-gradient-to-br from-indigo-500 via-fuchsia-500 to-pink-500;
+  @apply bg-gradient-to-br from-gray-300 via-gray-400 to-gray-500;
 }
+
+
+
+.gradient-text1 {
+  @apply bg-clip-text text-transparent;
+  @apply bg-gradient-to-br from-gray-300 via-gray-500 to-gray-600;
+}
+
