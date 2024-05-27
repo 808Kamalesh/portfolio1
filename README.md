@@ -4,9 +4,6 @@
 
 - 💨 Tailwind CSS for styling
 - CSS variables are defined in `src/styles/theme.css` and mapped to Tailwind classes (`tailwind.config.cjs`)
-- 🌙 Dark mode
-- 📱 Responsive (layout, images, typography)
-- 🔗 Open Graph tags for social media sharing
 
 ## Commands
 
